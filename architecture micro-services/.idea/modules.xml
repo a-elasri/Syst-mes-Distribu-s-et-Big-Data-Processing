@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Customer-Service/Customer-Service.iml" filepath="$PROJECT_DIR$/Customer-Service/Customer-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adria-eureka-service/adria-eureka-service.iml" filepath="$PROJECT_DIR$/adria-eureka-service/adria-eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adria-gateway/adria-gateway.iml" filepath="$PROJECT_DIR$/adria-gateway/adria-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/architecture micro-services.iml" filepath="$PROJECT_DIR$/.idea/architecture micro-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enset-billing-service/enset-billing-service.iml" filepath="$PROJECT_DIR$/enset-billing-service/enset-billing-service.iml" />
+    </modules>
+  </component>
+</project>

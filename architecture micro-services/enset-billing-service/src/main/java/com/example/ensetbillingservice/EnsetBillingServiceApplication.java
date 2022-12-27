@@ -24,10 +24,10 @@ public class EnsetBillingServiceApplication {
     ){
         return args -> {
             invoiceService.save(new InvoiceRequestDTO(
-                    BigDecimal.valueOf(76000),"C01"
+                    BigDecimal.valueOf(98000),"C01"
             ));
             invoiceService.save(new InvoiceRequestDTO(
-                    BigDecimal.valueOf(54200),"C01"
+                    BigDecimal.valueOf(54300),"C01"
             ));
             invoiceService.save(new InvoiceRequestDTO(
                     BigDecimal.valueOf(12000),"C02"

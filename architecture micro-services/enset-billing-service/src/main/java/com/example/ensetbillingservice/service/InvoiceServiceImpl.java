@@ -79,7 +79,6 @@ public class InvoiceServiceImpl implements InvoiceService {
                 Customer customer=customerRestClient.getCustomer(invoice.getCustomerId());
                 invoice.setCustomer(customer);
             }
-
         }
         return invoices.stream().map(
                 inv->invoiceMapper.fromInvoice(inv))

@@ -4,17 +4,17 @@
 <xsd:import namespace="http://ws/" schemaLocation="http://localhost:9191/?xsd=1"/>
 </xsd:schema>
 </types>
-<message name="Convert">
-<part name="parameters" element="tns:Convert"/>
+<message name="convert">
+<part name="parameters" element="tns:convert"/>
 </message>
-<message name="ConvertResponse">
-<part name="parameters" element="tns:ConvertResponse"/>
+<message name="convertResponse">
+<part name="parameters" element="tns:convertResponse"/>
 </message>
-<message name="listComptes">
-<part name="parameters" element="tns:listComptes"/>
+<message name="listCompte">
+<part name="parameters" element="tns:listCompte"/>
 </message>
-<message name="listComptesResponse">
-<part name="parameters" element="tns:listComptesResponse"/>
+<message name="listCompteResponse">
+<part name="parameters" element="tns:listCompteResponse"/>
 </message>
 <message name="getCompte">
 <part name="parameters" element="tns:getCompte"/>
@@ -23,13 +23,13 @@
 <part name="parameters" element="tns:getCompteResponse"/>
 </message>
 <portType name="BanqueService">
-<operation name="Convert">
-<input wsam:Action="http://ws/BanqueService/ConvertRequest" message="tns:Convert"/>
-<output wsam:Action="http://ws/BanqueService/ConvertResponse" message="tns:ConvertResponse"/>
+<operation name="convert">
+<input wsam:Action="http://ws/BanqueService/convertRequest" message="tns:convert"/>
+<output wsam:Action="http://ws/BanqueService/convertResponse" message="tns:convertResponse"/>
 </operation>
-<operation name="listComptes">
-<input wsam:Action="http://ws/BanqueService/listComptesRequest" message="tns:listComptes"/>
-<output wsam:Action="http://ws/BanqueService/listComptesResponse" message="tns:listComptesResponse"/>
+<operation name="listCompte">
+<input wsam:Action="http://ws/BanqueService/listCompteRequest" message="tns:listCompte"/>
+<output wsam:Action="http://ws/BanqueService/listCompteResponse" message="tns:listCompteResponse"/>
 </operation>
 <operation name="getCompte">
 <input wsam:Action="http://ws/BanqueService/getCompteRequest" message="tns:getCompte"/>
@@ -38,7 +38,7 @@
 </portType>
 <binding name="BanqueServicePortBinding" type="tns:BanqueService">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
-<operation name="Convert">
+<operation name="convert">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -47,7 +47,7 @@
 <soap:body use="literal"/>
 </output>
 </operation>
-<operation name="listComptes">
+<operation name="listCompte">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
